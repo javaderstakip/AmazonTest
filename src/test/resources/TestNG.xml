@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Cucumber Amazon">
+    <parameter name="browser" value="Chrome"/>
+    <test name="CucumberTest">
+        <classes>
+            <class name="testRunners.Runner"/>
+        </classes>
+    </test>
+</suite>
