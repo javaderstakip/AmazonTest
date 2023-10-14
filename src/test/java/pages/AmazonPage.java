@@ -66,8 +66,8 @@ public class AmazonPage {
     static By accept = By.id("sp-cc-accept");
     static By search = By.id("twotabsearchtextbox");
     static By searchButton = By.id("nav-search-submit-button");
-    static By amazonFilter = By.xpath("//span[contains(text(),'Fulfilled by Amazon')]");
-    static By appleFilter = By.cssSelector("body > div:nth-child(1) > div:nth-child(28) > div:nth-child(12) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > span:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1) > a:nth-child(1) > span:nth-child(2)");
+    static By amazonFilter = By.xpath("//*[@id=\"p_98/21345978031\"]/span/a/span");
+    static By appleFilter = By.xpath("//*[@id=\"p_89/Apple\"]/span/a/span");//By.cssSelector("body > div:nth-child(1) > div:nth-child(28) > div:nth-child(12) > div:nth-child(2) > div:nth-child(1) > div:nth-child(3) > span:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > ul:nth-child(2) > li:nth-child(1) > span:nth-child(1) > a:nth-child(1) > span:nth-child(2)");
     static By firstProduct =By.cssSelector("img[alt='Apple AirPods (2.Nesil) ve Kablolu Şarj Kutusu']");
     static By add = By.id("add-to-cart-button");
     static By back = By.id("attach-close_sideSheet-link");
